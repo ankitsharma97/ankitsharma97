@@ -1,7 +1,5 @@
 Introduction:
 Ankit Sharma, B.Tech (IT) student from Kushinagar.
- Role:
-Backend Developer.
 Interest:
 Excited about Python Django Development.
  Skills:
