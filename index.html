@@ -727,26 +727,26 @@
                             </div>
                         </div>
                     </div>
-                    <div class="right-contact">
-                        <form action="" class="contact-form">
-                            <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
-                            </div>
-                            <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT">
-                            </div>
-                            <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
-                            </div>
-                            <div class="submit-btn">
-                                <a href="https://drive.google.com/file/d/1DSPsBOK8J7pcl3udgMCY0mCsqSVIt7oF/view" target="_blank" class="main-btn">
-                                    <span class="btn-text">Open Resume</span>
-                                    <span class="btn-icon"><i class="fa-solid fa-up-right-from-square"></i></span>
-                                </a>
-                            </div>
-                        </form>
-                    </div>
+                    <form id="myForm" action="" method="post">
+                        <div class="right-contact">
+                            <form action="" class="contact-form">
+                                <div class="input-control i-c-2">
+                                    <input type="text" name="name" required placeholder="YOUR NAME">
+                                    <input type="email" name="email" required placeholder="YOUR EMAIL">
+                                </div>
+                                <div class="input-control">
+                                    <input type="text" name="subject" required placeholder="ENTER SUBJECT">
+                                </div>
+                                <div class="input-control">
+                                    <textarea name="message" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                                </div>
+                                <div class="btn-con">
+                                    <button type="submit" class="main-btn btn btn-primary" style="background-color: rgb(28, 28, 29); color: white; padding: 10px 20px; font-size: 16px; border-radius: 25px;">Submit</button>
+                                    
+                                </div>
+                            </form>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
@@ -774,5 +774,19 @@
         <i class="fas fa-adjust"></i>
     </div>
     <script src="app.js"></script>
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function (event) {
+          event.preventDefault();
+          let formData = new FormData(event.target);
+          fetch("https://script.google.com/macros/s/AKfycbzfPfFFVzPLU8VNMz5Z9Wtn0bmv7cngPOZouuJ4WrrSq3hEsJkmJ1wjkz0FU2ejPl0LGA/exec", {
+            method: "POST",
+            body: formData
+          })
+          .then(() => {
+              alert("Your message has been sent successfully. We will contact you soon.");
+              window.location.reload(); 
+          });
+        });
+    </script>
 </body>
 </html>
