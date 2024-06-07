@@ -2,10 +2,10 @@
 <h3 align="center">A passionate Django developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ankitsharma97&label=Profile%20views&color=0e75b6&style=flat" alt="ankitsharma97" /> </p>
+<p > <a href="https://twitter.com/ankitsh0161" target="blank"><img src="https://img.shields.io/twitter/follow/ankitsh0161?logo=twitter&style=for-the-badge" alt="ankitsh0161" /></a> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ankitsharma97" alt="ankitsharma97" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/ankitsh0161" target="blank"><img src="https://img.shields.io/twitter/follow/ankitsh0161?logo=twitter&style=for-the-badge" alt="ankitsh0161" /></a> </p>
 <img align="right" width="400px" src="https://imgs.search.brave.com/uGBeRwzhbiOphYDvGkQnCQYYApKyDw1OrDHAZ44cF9Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvYW5pbWF0/ZWQtbWFuLWNvbXB1/dGVyLWNvZGluZy1u/YWU2bWVjMzc4bHNn/MWkzLmdpZg.gif" alt="">
 
 
